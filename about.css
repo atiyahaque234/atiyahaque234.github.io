@@ -1,0 +1,96 @@
+#about {
+  background: rgb(168, 197, 197);
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.aboutpic {
+  max-width: 30%;
+  width: 20%; /* Set the width of the image */
+  height: 68%; /* Maintain aspect ratio */
+  margin-left: 9rem;
+  margin-top: 7rem;
+  border-top-left-radius: 10rem;
+  border-top-right-radius: 10rem;
+  filter: brightness(105%);
+  filter: contrast(85%);
+}
+
+.about-headers {
+  z-index: 1000;
+  margin-top: 2.5vw;
+  position: absolute;
+  margin-left: 35%;
+  font-size: 400%;
+  font-family: "syncopate", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: lighter;
+}
+
+.about-text {
+  color: white;
+  margin-left: 12%;
+  font-size: 130%;
+  margin-right: 40%;
+  font-weight: 120%;
+  line-height: 1.2em;
+}
+
+.about-text:first-of-type {
+  margin-bottom: 2%; /* Reduced space after the first paragraph */
+  margin-top: 12vw;
+}
+
+@media (max-width: 864px) {
+  #about {
+    flex-direction: column;
+    /* Adjust based on your layout */
+    /* Adjust height based on content */
+  }
+
+  .aboutpic {
+    max-width: 100%;
+    width: 10rem;
+    height: 14rem; /* Adjust image width for mobile */
+    margin-top: 16%; /* Adjust top margin */
+  }
+
+  .about-headers {
+    margin-top: 0.8em; /* Adjust top margin for header */
+    font-size: 7vw; /* Responsive font size */
+    margin-left: 1em; /* Center the header */
+  }
+
+  .about-text {
+    margin: 1.2em; /* Adjust text margins for readability */
+    font-size: 1rem; /* Responsive font size */
+  }
+  .about-text p {
+    line-height: 1.5em;
+  }
+
+  .about-text:first-of-type {
+    margin-bottom: 5px; /* Reduced space after the first paragraph */
+  }
+}
+
+@media (max-width: 500px) {
+  #about {
+    height: 100vh;
+  }
+}
+
+.bold1 {
+  color: rgb(96, 151, 151);
+}
+
+.bold2 {
+  color: rgb(173, 125, 34);
+}
+
+.bold3 {
+  color: rgb(105, 60, 90);
+}

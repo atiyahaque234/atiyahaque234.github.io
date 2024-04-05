@@ -1,0 +1,211 @@
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  /* height: 100vh; */
+  width: 100vw;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-color: rgb(144, 175, 175);
+}
+
+.home-body {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.616)),
+    url("homepic.jpg"); /* Path to your image */
+  background-size: cover; /*Cover the entire div area*/
+  background-position: center;
+  background-attachment: fixed;
+  position: relative; /* Allows for absolute positioning inside */
+  margin: 0; /* Ensure no default margins are applied */
+  padding: 0;
+}
+
+/* Ensure that sections take at least the height of the viewport, with padding adjustments for smaller screens */
+section {
+  height: 100vh;
+  padding: 50px 10px;
+  /* Responsive padding */
+}
+
+h1 {
+  font-size: 10vw;
+}
+
+.hey-im-heading {
+  color: #d8d1d1; /* Change text color */
+  text-align: center; /* Center align the text */
+  font-size: 2.5em; /* Increase font size */
+  font-weight: bold; /* Make the font weight bold */
+  margin-top: 20px; /* Add margin on top */
+  margin-bottom: 10px; /* Add margin on the bottom */
+  position: absolute;
+  top: 56%;
+  left: 48%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+}
+
+.name-heading {
+  color: #d8d1d1; /* Change text color */
+  font-family: "Architects Daughter", cursive; /* Change font family */
+  text-align: center; /* Center align the text */
+  font-size: 8em; /* Increase font size */
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  border-right: 4px solid white; /* The cursor */
+  animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+.typing-container {
+  width: fit-content;
+  border-right: 2px solid; /* Simulate the cursor */
+  white-space: nowrap; /* Ensure text stays in a single line */
+  overflow: hidden; /* Hide the overflow content */
+  animation: typing 8s steps(12, end), blink-caret 0.75s step-end infinite; /* Add typing and blinking animation */
+  margin: 0 auto; /* Center the container */
+}
+
+/* Typing animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Cursor blink animation */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  20% {
+    border-color: rgb(255, 255, 255);
+  }
+}
+
+.button-style {
+  padding: 1vw 2vw;
+  color: rgb(255, 249, 249);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: none;
+  align-content: end;
+  font-size: 1em;
+}
+
+.button-style:hover {
+  text-decoration: underline;
+}
+
+.buttons-container {
+  text-align: right; /* Aligns the container's content to the right */
+  margin-right: 5rem; /* Optional: Adds some space to the right side */
+  position: fixed;
+  width: 100%;
+  max-height: 1rem;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  padding: 1.5rem 0;
+  display: inline-block;
+}
+
+.initials-container {
+  position: fixed; /* Fix the position relative to the viewport */
+  top: 14px; /* Distance from the bottom */
+  left: 20px; /* Distance from the right */
+  width: 40px; /* Width of the square */
+  height: 38px; /* Height of the square */
+  color: white; /* Color of the initials */
+  text-align: center; /* Center the initials horizontally */
+  line-height: 40px; /* Center the initials vertically */
+  font-weight: bold; /* Make the initials bold */
+  font-size: 1.5em; /* Size of the initials */
+  z-index: 10000;
+  display: inline-block;
+  border: 2px solid #ffffff;
+  font-family: "Gruppo", sans-serif;
+}
+
+@media (max-width: 500px) {
+  .buttons-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0.5em 0;
+    text-align: right;
+    background: none;
+  }
+
+  .button-style {
+    padding: 1rem 1.5rem;
+    margin: 3px 2px; /* Space between buttons */
+    display: block;
+    text-align: right;
+    background-color: transparent;
+    border: none;
+    position: static;
+  }
+  .home-body {
+    background-attachment: scroll; /* Prevent fixed background on mobile */
+    padding: 10vw;
+  }
+
+  .hey-im-heading,
+  .name-heading {
+    font-size: 3em; /* Adjusted font size for smaller screens */
+    text-align: center;
+    position: absolute; /* Remove absolute positioning */
+    margin: 0; /* Add some margin */
+  }
+
+  .typing-container {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .initials-container {
+    top: 5px; /* Adjust position closer to top */
+    left: 5px; /* Adjust position closer to left */
+    width: 30px; /* Smaller width */
+    height: 30px; /* Smaller height */
+    font-size: 1em; /* Smaller font size */
+    position: absolute;
+    /* Ensure these elements don't exceed screen width */
+    box-sizing: border-box;
+  }
+
+  .home-body {
+    padding: 50px 0; /* Adjust padding for mobile */
+  }
+
+  body {
+    overflow-x: clip;
+    padding: 0;
+    margin: 0;
+  }
+
+  section {
+    padding: 20px; /* Ensure these elements don't exceed screen width */
+    max-height: 100vh;
+
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,22 @@
+#resume {
+  background: rgb(168, 197, 197);
+  height: 90vh;
+  display: flex;
+}
+
+.resume-headers {
+  z-index: 1000;
+  margin-top: 3;
+  position: absolute;
+  text-align: center;
+  font-size: 3em;
+  font-family: "gruppo", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: lighter;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 3fr 3fr; /* Creates two columns of equal width */
+  gap: 1vh; /* Adjusts the gap between columns */
+}
