@@ -1,5 +1,5 @@
 #about {
-  background: rgb(168, 197, 197);
+  background: rgb(154, 187, 187);
   height: 90vh;
   display: flex;
   flex-direction: column;
@@ -34,9 +34,10 @@
   color: white;
   margin-left: 12%;
   font-size: 130%;
-  margin-right: 40%;
-  font-weight: 120%;
+  margin-right: 50%;
+
   line-height: 1.2em;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .about-text:first-of-type {
@@ -85,12 +86,15 @@
 
 .bold1 {
   color: rgb(96, 151, 151);
+  font-weight: bold;
 }
 
 .bold2 {
   color: rgb(173, 125, 34);
+  font-weight: bold;
 }
 
 .bold3 {
   color: rgb(105, 60, 90);
+  font-weight: bold;
 }

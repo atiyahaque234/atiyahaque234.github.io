@@ -1,8 +1,8 @@
 #projects {
-  background: rgb(162, 207, 207);
+  background: rgb(163, 204, 204);
   height: 90vh;
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 2fr 2fr 2fr;
   height: fit-content;
   padding: 20px;
 }
