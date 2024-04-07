@@ -9,15 +9,21 @@ body {
   /* height: 100vh; */
   width: 100vw;
   scroll-behavior: smooth;
+  position: relative;
   overflow-x: hidden;
   background-color: rgb(144, 175, 175);
+}
+
+html,
+body {
+  overflow-x: hidden;
 }
 
 .home-body {
   height: 100vh;
   width: 100vw;
   background-image: linear-gradient(rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.616)),
-    url("../res/homepic.jpg"); /* Path to your image */
+    url("../public/res/homepic.jpg"); /* Path to your image */
   background-size: cover; /*Cover the entire div area*/
   background-position: center;
   background-attachment: fixed;
@@ -149,7 +155,7 @@ h1 {
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-start;
-    padding: 0.5em 0;
+    padding: 1em 0;
     text-align: right;
     background: none;
   }
@@ -165,7 +171,7 @@ h1 {
   }
   .home-body {
     background-attachment: scroll; /* Prevent fixed background on mobile */
-    padding: 10vw;
+    padding: 20px;
   }
 
   .hey-im-heading,
@@ -193,19 +199,22 @@ h1 {
   }
 
   .home-body {
-    padding: 50px 0; /* Adjust padding for mobile */
+    padding: 20px; /* Adjust padding for mobile */
+    overflow-x: hidden;
+    box-sizing: border-box;
   }
 
   body {
-    overflow-x: clip;
+    overflow-x: hidden;
     padding: 0;
+    box-sizing: border-box;
     margin: 0;
   }
 
   section {
     padding: 20px; /* Ensure these elements don't exceed screen width */
-    max-height: 100vh;
-
+    /* max-height: 100vh; */
+    overflow-x: hidden;
     box-sizing: border-box;
   }
 }

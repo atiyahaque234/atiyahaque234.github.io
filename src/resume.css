@@ -1,57 +1,73 @@
 #resume {
   background: rgb(168, 197, 197);
-  height: fit-content;
+  height: auto;
   display: flex;
-
+  flex-direction: column;
 }
 
 .resume-headers {
   z-index: 1000;
-
-  position: absolute;
+  position: flex;
   text-align: center;
   font-size: 2.5em;
-  margin-left: .5em;
   font-family: "gruppo", sans-serif;
   color: rgb(126, 98, 78);
   font-weight: normal;
-  margin-top: 1em;
   text-decoration: underline;
+  margin: 2rem 0 0 0;
+}
+
+.open-resume {
+  width: 2%;
+  margin-left: 1%;
+  color: rgb(126, 98, 78);
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: 2fr 3fr; /* Creates two columns of equal width */
-  gap: 4vh; /* Adjusts the gap between columns */
-  margin-top: 5.5em;
-  margin-left: 1em;
-  margin-right: 1em;
+  grid-template-columns: 2fr 3fr;
+  gap: 4vh;
+  justify-items: center;
+  align-content: center;
+  margin: 2rem;
+}
+
+.grid-container .resumeCol {
+  justify-items: center;
+  align-content: center;
 }
 
 .grid-skills {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-top: 0;
+}
+
+.skill-list {
+  margin-top: 0;
 }
 
 .resume-title {
   font-size: 26px;
   font-weight: 700;
-  margin-top: 20px;
-
+  margin-top: 0;
   color: rgb(153, 112, 83);
+}
+
+h3 {
+  margin-bottom: 0.5em;
 }
 
 .resume-item {
   padding: 0 0 10px 15px;
-  border-left: 2px solid lighten(50, 30);
+
   position: relative;
   color: rgb(153, 112, 83);
   border-left: 2px solid #9d7c68;
-
- 
+  justify-items: center;
+  align-content: center;
 
   h6 {
-    line-height: 15px;
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
@@ -64,11 +80,10 @@
     font-size: 16px;
     background-color: rgb(156, 182, 182);
     padding: 0px 10px;
-    display: flex;
     font-weight: 600;
-    margin-top: .8em;
+    margin-top: 0.8em;
     margin-bottom: 0;
-    margin-left: .5em;
+    margin-left: 0.5em;
     max-width: fit-content;
   }
 
@@ -86,13 +101,12 @@
   }
 }
 
-h11 {
+.h11 {
   color: rgb(153, 112, 83);
 }
 
-
-.resume-item h6::before { 
-  content: ''; /* Required for the pseudo-element to work */
+.resume-item h6::before {
+  content: ""; /* Required for the pseudo-element to work */
   position: absolute; /* Position absolutely within the h6 */
   left: -1.2em; /* Adjust this value so it aligns with the vertical border */
   top: 20%; /* Align the circle's center with the center of the h6 */
@@ -100,58 +114,44 @@ h11 {
   width: 12px; /* Circle size */
   height: 12px; /* Circle size */
   background-color: #9d7c68; /* Circle color - adjust as needed */
-  border-radius: 50%; /* This makes the square a circle *//
-
+  border-radius: 50%; /* This makes the square a circle */
 }
 
-h13 {
-  font-size: 16px;
-  font-weight: normal;
-  margin-top: 10%;
-  }
+.resume-item .h15::before {
+  content: ""; /* Required for the pseudo-element to work */
+  position: absolute; /* Position absolutely within the h6 */
+  left: -0.4em; /* Adjust this value so it aligns with the vertical border */
+  top: 3%; /* Align the circle's center with the center of the h6 */
+  transform: translateY(-50%); /* This centers the circle vertically */
+  width: 12px; /* Circle size */
+  height: 12px; /* Circle size */
+  background-color: #9d7c68; /* Circle color - adjust as needed */
+  border-radius: 50%; /* This makes the square a circle */
+}
 
-@media (max-width: 768px) {
+@media (max-width: 568px) {
   /* Adjust the max-width as needed */
   #resume {
-    display: flex;
     flex-direction: column; /* Ensures content is laid out top-to-bottom */
     align-items: center; /* Centers content horizontally */
     padding: 1em; /* Add padding to ensure content does not touch the edges */
     margin: auto; /* Center the resume section if needed */
     width: 100%; /* Ensure it spans the full width */
-    min-height: 100vh; /* Minimum height to at least cover the viewport */
+    min-height: auto; /* Minimum height to at least cover the viewport */
+    height: auto;
   }
 
- .resume-item h6::before { 
-  content: ''; /* Required for the pseudo-element to work */
-  position: absolute; /* Position absolutely within the h6 */
-  left: -1.5em; /* Adjust this value so it aligns with the vertical border */
-  top: 20%; /* Align the circle's center with the center of the h6 */
-  transform: translateY(-50%); /* This centers the circle vertically */
-  width: 12px; /* Circle size */
-  height: 12px; /* Circle size */
-  background-color: #9d7c68; /* Circle color - adjust as needed */
-  border-radius: 50%; /* This makes the square a circle *//
+  .resume-item h6::before {
+    content: ""; /* Required for the pseudo-element to work */
+    position: absolute; /* Position absolutely within the h6 */
+    transform: translateY(-50%); /* This centers the circle vertically */
+    width: 12px; /* Circle size */
+    height: 12px; /* Circle size */
+    background-color: #9d7c68;
+    border-radius: 50%; /* This makes the square a circle */
+  }
 
-}
- 
   .grid-container {
-    display: block;
-    flex-direction: column;
-    flex-wrap: wrap; /* This changes the layout from grid to block, which stacks elements vertically */
-    margin-top: 1em;
-    margin: 0;
-  }
-
-  .resume-headers {
-    position: static; /* Changes from absolute to static to flow in document */
-    margin-top: .5em; /* Adjust space above the resume header */
-  }
-
-  .resume-item {
-    padding: 0 10px 20px 20px; /* Adjust padding to suit single-column layout */
-    /* Removes the border when in single column */
+    grid-template-columns: 1fr;
   }
 }
-
-

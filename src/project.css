@@ -1,0 +1,85 @@
+#projects {
+  background: rgb(163, 204, 204);
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em;
+}
+
+.project-headers {
+  grid-column: 1 / -1;
+  z-index: 1000;
+  text-align: center;
+  font-size: 4em;
+  font-family: "gruppo", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: lighter;
+  margin: 2.2rem 0.5rem 2rem 0.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.grid-projects {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  gap: 0.5em;
+  width: 90w; /* This makes the div take the full width of the viewport */
+  max-width: 90vw;
+  justify-items: center;
+  align-content: center;
+}
+
+.project-item {
+  display: grid;
+  /* Stack elements vertically */
+  margin-bottom: 0;
+}
+
+.project-item img {
+  width: 85%; /* Responsive width */
+  border-radius: 1em;
+  margin-bottom: 0.5em; /* Space between image and text */
+}
+.project-item:first-child {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  width: 55%;
+}
+
+.project-item:not(:first-child) {
+  width: 80%; /* Makes images responsive within their container */
+  max-width: 300px;
+  border-radius: 1em;
+  grid-column: auto;
+  margin-bottom: 0.5em;
+}
+
+.project-item p {
+  text-align: center;
+  font-family: "gruppo", sans-serif;
+  color: white;
+  margin-top: 0.2em;
+  font-size: 1.5em;
+}
+
+.project-item div {
+  justify-items: center;
+  align-content: center;
+  display: grid;
+}
+
+@media (max-width: 764px) {
+  #projects {
+    height: auto;
+  }
+
+  .project-headers {
+    text-align: center;
+  }
+
+  .grid-projects {
+    grid-template-columns: 1fr;
+  }
+}

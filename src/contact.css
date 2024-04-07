@@ -1,52 +1,51 @@
 #contact {
-  background-image: url("../res/contact-phone.jpg");
+  background-image: url("../public/res/contact-phone.jpg");
   filter: contrast(90%);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
-  display: grid;
-  padding: 15% 20%;
+  display: block;
+  padding: 8% 15%;
   box-sizing: border-box;
   width: 100%;
   background-attachment: scroll;
   margin: 0;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
 }
 
 .contact-headers {
   z-index: 1000;
-  margin-top: 6.5rem;
-  position: absolute;
-  text-align: center;
+  margin-top: -0.2em;
+  position: sticky;
   font-size: 400%;
   font-family: "syncopate", sans-serif;
   color: rgb(255, 255, 255);
   font-weight: lighter;
-  margin-left: 10%;
+  margin-left: 0;
 }
 
 .contact-text {
-  margin-top: 8rem;
   padding: 0 5%;
   color: #ffffff;
   font-size: 130%;
   line-height: 1em;
   font-weight: lighter;
   font-family: "Times New Roman", Times, serif;
+  margin-left: -0.5em;
+  margin-bottom: -0.8em;
 }
 
 .contact-icon-item {
   display: flex;
+  margin-left: 10%;
   align-items: center; /* Center-align the content of each grid item */
-  text-align: center; /* Ensure text is centered under icons */
+  /* Ensure text is centered under icons */
 
   /* Adds space between rows */
 }
 
 .contact-icon-item :first-of-type {
-  margin-top: 0.6em;
+  margin-top: 1em;
 }
 
 .contact-icons img {
@@ -74,12 +73,13 @@
 @media (max-width: 964px) {
   #contact {
     flex-direction: column; /* Maintain two-column layout */
-    padding: 30% 15%;
+    padding: 15% 15%;
   }
 
   .contact-headers {
-    margin-left: 0.5em;
+    margin-left: 0;
     font-size: 300%;
+    margin-top: 1em;
   }
 }
 
@@ -88,7 +88,7 @@
     height: 100vh;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 35% 10%;
+    padding: 10% 20%;
   }
 
   .contact-headers {
@@ -109,6 +109,7 @@
     justify-content: center; /* Center-align items vertically in the flex container */
     text-align: center; /* Ensure text is centered under icons */
     align-items: center;
-    margin-left: 30%;
+    margin-left: 5%;
+    margin-top: 5%;
   }
 }

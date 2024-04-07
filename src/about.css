@@ -9,8 +9,8 @@
 
 .aboutpic {
   max-width: 30%;
-  width: 20%; /* Set the width of the image */
-  height: 68%; /* Maintain aspect ratio */
+  width: 15em; /* Set the width of the image */
+  height: 23em; /* Maintain aspect ratio */
   margin-left: 9rem;
   margin-top: 7rem;
   border-top-left-radius: 10rem;
@@ -54,8 +54,8 @@
 
   .aboutpic {
     max-width: 100%;
-    width: 10rem;
-    height: 14rem; /* Adjust image width for mobile */
+    width: 10em;
+    height: 14em; /* Adjust image width for mobile */
     margin-top: 16%; /* Adjust top margin */
   }
 
