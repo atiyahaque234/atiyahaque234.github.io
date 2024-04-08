@@ -1,5 +1,5 @@
 #resume {
-  background: rgb(168, 197, 197);
+  background: rgb(197, 194, 194);
   height: auto;
   display: flex;
   flex-direction: column;
@@ -77,7 +77,7 @@ h3 {
 
   h5 {
     font-size: 16px;
-    background-color: rgb(156, 182, 182);
+    background-color: rgb(180, 178, 178);
     padding: 0px 10px;
     font-weight: 600;
     margin-top: 0.8em;

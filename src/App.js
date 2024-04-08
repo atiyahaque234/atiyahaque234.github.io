@@ -63,7 +63,7 @@ function App() {
       </section>
 
       <section id="projects">
-        <div className="project-headers">My Work</div>
+        <div className="project-headers">MY WORK</div>
         <div className="grid-projects">
           <a
             className="project-item"
@@ -72,7 +72,7 @@ function App() {
           >
             <div>
               <img src="./res/avalonpic.png" />
-              <p>Digital Avalon Board Game</p>
+              <p>Digital Avalon Board Game (UX/UI Designer)</p>
             </div>
           </a>
 
@@ -83,7 +83,7 @@ function App() {
           >
             <div>
               <img src="./res/Vinyl tap magazine.png" />
-              <p>Vinyl Tap Magazine</p>
+              <p>Vinyl Tap Magazine (Web Designer)</p>
             </div>
           </a>
 
@@ -94,7 +94,7 @@ function App() {
           >
             <div>
               <img src="./res/WMBG website.png" />
-              <p>WMBG Radio Station</p>
+              <p>WMBG Radio Station (Web Designer)</p>
             </div>
           </a>
 
@@ -291,20 +291,18 @@ function App() {
         <div className="contact-headers">Let's Stay in Touch!</div>
 
         <div className="contact-icon-item">
-          <a href="your-desired-link.html" target="_blank">
-            <div className="contact-icons">
-              <img src="./res/email-icon.png" />
-            </div>
-          </a>
+          <div className="contact-icons">
+            <img src="./res/email-icon.png" />
+          </div>
+
           <p className="contact-text">atiya234@gmail.com</p>
         </div>
 
         <div className="contact-icon-item">
-          <a href="your-desired-link.html" target="_blank">
-            <div className="contact-icons-phone">
-              <img src="./res/phone-icon.png" alt="Emoji Description" />
-            </div>
-          </a>
+          <div className="contact-icons-phone">
+            <img src="./res/phone-icon.png" alt="Emoji Description" />
+          </div>
+
           <span className="contact-text">571-233-1151</span>
         </div>
         <div className="contact-icon-item">
@@ -315,7 +313,10 @@ function App() {
           </a>
 
           <span className="contact-text">
-            <a href="https://www.linkedin.com/in/atiya-haque">
+            <a
+              className="url-color"
+              href="https://www.linkedin.com/in/atiya-haque"
+            >
               https://www.linkedin.com/in/atiya-haque/
             </a>
           </span>
@@ -332,7 +333,7 @@ function App() {
             </div>
           </a>
           <span className="contact-text">
-            <a href="https://github.com/atiyahaque234">
+            <a className="url-color" href="https://github.com/atiyahaque234">
               https://github.com/atiyahaque234
             </a>
           </span>

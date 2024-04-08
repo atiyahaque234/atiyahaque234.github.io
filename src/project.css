@@ -1,6 +1,6 @@
 #projects {
-  background: rgb(163, 204, 204);
-  height: auto;
+  background: rgba(178, 214, 216, 0.866);
+  height: 95vh;
   display: flex;
   flex-direction: column;
   padding: 1.5em;
@@ -12,8 +12,7 @@
   text-align: center;
   font-size: 4em;
   font-family: "gruppo", sans-serif;
-  color: rgb(255, 255, 255);
-  font-weight: lighter;
+  color: rgb(126, 98, 78);
   margin: 2.5rem 0.5rem 2rem 0.5rem;
 }
 
@@ -59,7 +58,7 @@ a {
 .project-item p {
   text-align: center;
   font-family: "gruppo", sans-serif;
-  color: white;
+  color: rgb(126, 98, 78);
   margin-top: 0.2em;
   font-size: 1.5em;
 }
