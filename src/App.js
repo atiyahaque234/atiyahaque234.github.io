@@ -1,9 +1,9 @@
 import React from "react";
-import "../src/about.css";
-import "../src/contact.css";
-import "../src/project.css";
-import "../src/resume.css";
-import "../src/style.css";
+import "./about.css";
+import "./contact.css";
+import "./project.css";
+import "./resume.css";
+import "./style.css";
 
 function App() {
   return (
@@ -33,6 +33,10 @@ function App() {
         <h1 className="hey-im-heading">Hey, I'm</h1>
         <div className="typing-container">
           <h2 className="name-heading">Atiya Haque</h2>
+
+          <a href="#about" className="scroll-down" address="true">
+            <span></span>
+          </a>
         </div>
       </section>
 
@@ -121,7 +125,10 @@ function App() {
       <section id="resume">
         <h4 className="resume-headers">
           RESUME
-          <a href="your-desired-link.html" target="_blank">
+          <a
+            href="https://drive.google.com/file/d/1DEMvV-h7XbvbN78FIJnRZuLuqDv33g3T/view?usp=drive_link"
+            target="_blank"
+          >
             <img className="open-resume" src="./res/open-resume.png" />
           </a>
         </h4>

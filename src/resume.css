@@ -13,13 +13,13 @@
   font-family: "gruppo", sans-serif;
   color: rgb(126, 98, 78);
   font-weight: normal;
-  text-decoration: underline;
+
   margin: 2rem 0 0 0;
 }
 
 .open-resume {
-  width: 2%;
-  margin-left: 1%;
+  width: 0.8em;
+  margin-left: 0;
   color: rgb(126, 98, 78);
 }
 
@@ -60,7 +60,6 @@ h3 {
 
 .resume-item {
   padding: 0 0 10px 15px;
-
   position: relative;
   color: rgb(153, 112, 83);
   border-left: 2px solid #9d7c68;
