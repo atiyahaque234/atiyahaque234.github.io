@@ -64,61 +64,83 @@ function App() {
 
       <section id="projects">
         <div className="project-headers">MY WORK</div>
-        <div className="grid-projects">
-          <a
-            className="project-item"
-            href="https://avalon-cfacb.web.app/"
-            target="_blank"
-          >
-            <div>
-              <img src="./res/avalonpic.png" />
-              <p>Digital Avalon Board Game (UX/UI Designer)</p>
-            </div>
-          </a>
+        <div class="container">
+          <div class="gallery">
+            <figure class="gallery__item gallery__item--1">
+              <a
+                className="project-item"
+                href="https://avalon-cfacb.web.app/"
+                target="_blank"
+              >
+                <img
+                  src="./res/avalonpic.png"
+                  class="gallery__img"
+                  alt="Image 1"
+                />
+                <p>Digital Avalon Board Game (UX/UI Designer)</p>{" "}
+              </a>
+            </figure>
 
-          <a
-            className="project-item"
-            href="https://vinyltapmag.pages.wm.edu/"
-            target="_blank"
-          >
-            <div>
-              <img src="./res/Vinyl tap magazine.png" />
-              <p>Vinyl Tap Magazine (Web Designer)</p>
-            </div>
-          </a>
+            <figure class="gallery__item gallery__item--2">
+              <a
+                className="project-item"
+                href="https://vinyltapmag.pages.wm.edu/"
+                target="_blank"
+              >
+                <img
+                  src="./res/Vinyl tap magazine.png"
+                  class="gallery__img"
+                  alt="Image 2"
+                />
+                <p>Vinyl Tap Magazine (Web Designer)</p>
+              </a>
+            </figure>
 
-          <a
-            className="project-item"
-            href="https://www.wmbgradio.com/"
-            target="_blank"
-          >
-            <div>
-              <img src="./res/WMBG website.png" />
-              <p>WMBG Radio Station (Web Designer)</p>
-            </div>
-          </a>
+            <figure class="gallery__item gallery__item--3">
+              <a
+                className="project-item"
+                href="https://www.wmbgradio.com/"
+                target="_blank"
+              >
+                <img
+                  src="./res/WMBG website.png"
+                  class="gallery__img"
+                  alt="Image 3"
+                />{" "}
+                <p>WMBG Radio Station (Web Designer)</p>
+              </a>
+            </figure>
 
-          <a
-            className="project-item"
-            href="https://www.canva.com/design/DAE9mGxFgHw/7KltRF1OrSrFAJPzbXbkIQ/edit"
-            target="_blank"
-          >
-            <div>
-              <img src="./res/market research.jpg" />
-              <p>Influencer Marketing Research</p>
-            </div>
-          </a>
+            <figure class="gallery__item gallery__item--4">
+              <a
+                className="project-item"
+                href="https://www.canva.com/design/DAE9mGxFgHw/7KltRF1OrSrFAJPzbXbkIQ/edit"
+                target="_blank"
+              >
+                <img
+                  src="./res/market research.jpg"
+                  class="gallery__img"
+                  alt="Image 4"
+                />{" "}
+                <p>Influencer Marketing Research</p>
+              </a>
+            </figure>
 
-          <a
-            className="project-item"
-            href="https://www.canva.com/design/DAE8RqyMH6I/nlydGTEBOv7ypUCYiIUUYQ/edit"
-            target="_blank"
-          >
-            <div>
-              <img src="./res/brayschool.png" />
-              <p>Marketing Strategy Case</p>
-            </div>
-          </a>
+            <figure class="gallery__item gallery__item--5">
+              <a
+                className="project-item"
+                href="https://www.canva.com/design/DAE8RqyMH6I/nlydGTEBOv7ypUCYiIUUYQ/edit"
+                target="_blank"
+              >
+                <img
+                  src="./res/brayschool.png"
+                  class="gallery__img"
+                  alt="Image 5"
+                />
+                <p>Marketing Strategy Project</p>
+              </a>
+            </figure>
+          </div>
         </div>
       </section>
 

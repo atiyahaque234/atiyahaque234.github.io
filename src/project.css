@@ -3,7 +3,6 @@
   height: 95vh;
   display: flex;
   flex-direction: column;
-  padding: 1.5em;
 }
 
 .project-headers {
@@ -13,60 +12,68 @@
   font-size: 4em;
   font-family: "gruppo", sans-serif;
   color: rgb(126, 98, 78);
-  margin: 2.5rem 0.5rem 2rem 0.5rem;
+  margin: 2.5rem 0.5rem 0 0.5rem;
 }
 
 a {
   text-decoration: none;
 }
 
-.grid-projects {
+.gallery {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 0.3em;
-  width: 90w; /* This makes the div take the full width of the viewport */
-  max-width: 90vw;
-  justify-items: center;
-  align-content: center;
+  grid-template-columns: repeat(35, 2.5em);
+  grid-template-rows: repeat(15, 2.8em);
 }
 
-.project-item {
-  display: grid;
-  /* Stack elements vertically */
-  margin-bottom: 0;
-}
-
-.project-item img {
-  width: 85%; /* Responsive width */
-  border-radius: 1em;
-  margin-bottom: 0.5em; /* Space between image and text */
-}
-.project-item:first-child {
-  grid-column: 1;
-  grid-row: 1 / span 2;
-  width: 55%;
-}
-
-.project-item:not(:first-child) {
-  width: 80%; /* Makes images responsive within their container */
-  max-width: 300px;
-  border-radius: 1em;
-  grid-column: auto;
-  margin-bottom: 0.5em;
-}
-
-.project-item p {
+.gallery p {
+  margin-top: 1em;
   text-align: center;
-  font-family: "gruppo", sans-serif;
   color: rgb(126, 98, 78);
-  margin-top: 0.2em;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
-.project-item div {
-  justify-items: center;
-  align-content: center;
-  display: grid;
+.container {
+  margin: auto;
+  margin-top: 0;
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 10;
+  grid-row-start: 1;
+  grid-row-end: 15;
+}
+
+.gallery__item--2 {
+  grid-column-start: 9;
+  grid-column-end: 24;
+  grid-row-start: 3;
+  grid-row-end: 8;
+}
+
+.gallery__item--3 {
+  grid-column-start: 23;
+  grid-column-end: 33;
+  grid-row-start: 2;
+  grid-row-end: 8;
+}
+.gallery__item--4 {
+  grid-column-start: 20;
+  grid-column-end: 33;
+  grid-row-start: 9;
+  grid-row-end: 15;
+}
+.gallery__item--5 {
+  grid-column-start: 10;
+  grid-column-end: 21;
+  grid-row-start: 9;
+  grid-row-end: 15;
 }
 
 @media (max-width: 764px) {
