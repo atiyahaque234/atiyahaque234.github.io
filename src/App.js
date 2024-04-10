@@ -77,7 +77,7 @@ function App() {
                   class="gallery__img"
                   alt="Image 1"
                 />
-                <p>Digital Avalon Board Game (UX/UI Designer)</p>{" "}
+                <p>React App Avalon Board Game (User Testing/UI Designer)</p>
               </a>
             </figure>
 

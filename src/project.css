@@ -3,6 +3,9 @@
   height: 95vh;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+
+  justify-content: center;
 }
 
 .project-headers {
@@ -21,8 +24,11 @@ a {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(35, 2.5em);
+  grid-template-columns: repeat(32, 2.5em);
   grid-template-rows: repeat(15, 2.8em);
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-items: center;
 }
 
 .gallery p {
@@ -35,13 +41,14 @@ a {
 .container {
   margin: auto;
   margin-top: 0;
+  justify-items: center;
+  align-content: center;
 }
 
 .gallery__img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  display: block;
+  object-fit: contain;
 }
 .gallery__item--1 {
   grid-column-start: 1;
@@ -76,16 +83,64 @@ a {
   grid-row-end: 15;
 }
 
-@media (max-width: 764px) {
+@media screen and (max-width: 1250px) {
+  .gallery {
+    width: 100%;
+    grid-template-columns: repeat(32, 3%);
+    grid-template-rows: repeat(15, 6%);
+  }
+
+  .gallery p {
+    margin-top: 2%;
+    text-align: center;
+    color: rgb(126, 98, 78);
+    font-size: 15px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
   #projects {
+    flex-direction: column; /* Ensures content is laid out top-to-bottom */
+    align-items: center; /* Centers content horizontally */
+    padding: 1em; /* Add padding to ensure content does not touch the edges */
+    margin: auto; /* Center the resume section if needed */
+    width: 100%;
+    justify-content: flex-start;
     height: auto;
   }
 
   .project-headers {
-    text-align: center;
+    margin-top: 1em;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    padding: 3em;
   }
 
-  .grid-projects {
+  .container {
+    display: grid;
     grid-template-columns: 1fr;
+    width: 100%; /* Ensure container is full width */
+    align-items: center;
+  }
+  .gallery__img {
+    width: 100%; /* Ensures image takes the full width */
+    height: auto; /* Adjust height automatically */
+    object-fit: contain;
+    align-items: center;
+  }
+
+  .gallery__item--1,
+  .gallery__item--2,
+  .gallery__item--3,
+  .gallery__item--4,
+  .gallery__item--5 {
+    grid-column: 1 / -1; /* Span entire column */
+    grid-row: auto; /* Position automatically in flow */
   }
 }
