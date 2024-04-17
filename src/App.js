@@ -46,13 +46,13 @@ function App() {
 
         <p className="about-text">
           Hey there! I am a digital enthusiast, who is passionate about
-          everything
-          <span className="bold1"> Technology, </span>
-          <span className="bold2"> User Experience, </span>and
-          <span className="bold3"> Marketing. </span>
-          My goal is to apply creativity in everything I do, while building new
-          relationships along the way. I aim to redefine customer engagement and
-          drive success through strategic digital practices.
+          everything&nbsp;
+          <span className="bold1">Technology</span>,&nbsp;
+          <span className="bold2">User Experience</span>, and&nbsp;
+          <span className="bold3">Marketing</span>. My goal is to apply
+          creativity in everything I do, while building new relationships along
+          the way. I aim to redefine customer engagement and drive success
+          through strategic digital practices.
         </p>
 
         <p className="about-text">
@@ -63,83 +63,162 @@ function App() {
       </section>
 
       <section id="projects">
-        <div className="project-headers">MY WORK</div>
-        <div class="container">
+        <div className="project-headers">FEATURED WORK</div>
+        <div className="container">
           <div class="gallery">
-            <figure class="gallery__item gallery__item--1">
-              <a
-                className="project-item"
-                href="https://avalon-cfacb.web.app/"
-                target="_blank"
-              >
+            <a href="https://avalon-cfacb.web.app/" target="_blank">
+              <div className="overlay">
                 <img
-                  src="./res/avalonpic.png"
+                  src="./res/avalongraphic.jpg"
                   class="gallery__img"
                   alt="Image 1"
                 />
-                <p>React App Avalon Board Game (User Testing/UI Designer)</p>
-              </a>
-            </figure>
-
-            <figure class="gallery__item gallery__item--2">
-              <a
-                className="project-item"
-                href="https://vinyltapmag.pages.wm.edu/"
-                target="_blank"
-              >
+                <p>
+                  Developed interactive web application to enhance board game
+                  experience with supplemental digital features, including
+                  voting and role selection, or full digital gameplay
+                </p>
+              </div>
+              <div className="roletitle">
+                {" "}
+                <p>Avalon Board Game</p>
+                <p>
+                  <small>
+                    <em>Role:</em> UX/UI Designer, Front-End Developer
+                  </small>
+                </p>
+                <p></p>
+              </div>
+            </a>
+          </div>
+          <div class="gallery">
+            <a href="https://vinyltapmag.pages.wm.edu/" target="_blank">
+              <div className="overlay">
                 <img
-                  src="./res/Vinyl tap magazine.png"
+                  src="./res/vinylgraphic.jpg"
                   class="gallery__img"
                   alt="Image 2"
                 />
-                <p>Vinyl Tap Magazine (Web Designer)</p>
-              </a>
-            </figure>
+                <p>
+                  Built mock-ups and published issues for digital music magazine
+                  designed for college community to explore multimedia content
+                </p>
+              </div>
+              <div className="roletitle">
+                <p>Vinyl Tap Magazine</p>
+                <p>
+                  <small>
+                    <em>Role:</em> Web Designer
+                  </small>
+                </p>
+              </div>
+            </a>
+          </div>
 
-            <figure class="gallery__item gallery__item--3">
-              <a
-                className="project-item"
-                href="https://www.wmbgradio.com/"
-                target="_blank"
-              >
+          <div class="gallery">
+            <a href="https://www.wmbgradio.com/" target="_blank">
+              <div className="overlay">
                 <img
-                  src="./res/WMBG website.png"
+                  src="./res/wmbggraphic.jpg"
                   class="gallery__img"
                   alt="Image 3"
-                />{" "}
-                <p>WMBG Radio Station (Web Designer)</p>
-              </a>
-            </figure>
+                />
+                <p>
+                  Designed and updated local town radio station website to
+                  promote events and partners
+                </p>{" "}
+              </div>
+              <div className="roletitle">
+                <p>WMBG Radio Station</p>
+                <p>
+                  <small>
+                    <em>Role:</em> UX Researcher, Web Designer{" "}
+                  </small>
+                </p>
+              </div>
+            </a>
+          </div>
 
-            <figure class="gallery__item gallery__item--4">
-              <a
-                className="project-item"
-                href="https://www.canva.com/design/DAE9mGxFgHw/7KltRF1OrSrFAJPzbXbkIQ/edit"
-                target="_blank"
-              >
+          <div class="gallery">
+            <a
+              href="https://www.canva.com/design/DAE9mGxFgHw/7KltRF1OrSrFAJPzbXbkIQ/edit"
+              target="_blank"
+            >
+              <div className="overlay">
                 <img
-                  src="./res/market research.jpg"
+                  src="./res/rwcgraphic.jpg"
                   class="gallery__img"
                   alt="Image 4"
-                />{" "}
-                <p>Influencer Marketing Research</p>
-              </a>
-            </figure>
+                />
+                <p>
+                  Enhancing website platform promoting social programs and
+                  support for female refugees
+                </p>
+              </div>
+              <div className="roletitle">
+                <p>Refugee Women's Center</p>
+                <p>
+                  <small>
+                    <em>Role:</em> Web Designer{" "}
+                  </small>
+                </p>
+              </div>
+            </a>
+          </div>
 
-            <figure class="gallery__item gallery__item--5">
-              <a
-                className="project-item"
-                href="https://www.canva.com/design/DAE8RqyMH6I/nlydGTEBOv7ypUCYiIUUYQ/edit"
-                target="_blank"
-              >
+          <div class="gallery">
+            <a
+              href="https://www.canva.com/design/DAE9mGxFgHw/7KltRF1OrSrFAJPzbXbkIQ/edit"
+              target="_blank"
+            >
+              <div className="overlay">
                 <img
-                  src="./res/brayschool.png"
+                  src="./res/influencergraphic.jpg"
+                  class="gallery__img"
+                  alt="Image 4"
+                />
+                <p>
+                  Conducted market research to understand difference between
+                  macro and micro influencers and provide growth strategy
+                </p>
+              </div>
+              <div className="roletitle">
+                {" "}
+                <p>Influencer Case Study</p>
+                <p>
+                  <small>
+                    <em>Role:</em> Research Analyst{" "}
+                  </small>
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="gallery">
+            <a
+              href="https://www.canva.com/design/DAE8RqyMH6I/nlydGTEBOv7ypUCYiIUUYQ/edit"
+              target="_blank"
+            >
+              <div className="overlay">
+                <img
+                  src="./res/braygraphic.jpg"
                   class="gallery__img"
                   alt="Image 5"
                 />
-                <p>Marketing Strategy Project</p>
-              </a>
-            </figure>
+                <p>
+                  Created strategy analysis and promotional materials to
+                  increase awareness for cultural institution
+                </p>{" "}
+              </div>
+              <div className="roletitle">
+                {" "}
+                <p>Bray School Lab Case Study</p>
+                <p>
+                  <small>
+                    <em>Role:</em> Marketing Strategist{" "}
+                  </small>
+                </p>
+              </div>
+            </a>
           </div>
         </div>
       </section>

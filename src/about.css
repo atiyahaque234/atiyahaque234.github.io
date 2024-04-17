@@ -26,12 +26,12 @@
   margin-left: 35%;
   font-size: 400%;
   font-family: "syncopate", sans-serif;
-  color: rgb(255, 255, 255);
+  color: rgb(153, 112, 83);
   font-weight: lighter;
 }
 
 .about-text {
-  color: white;
+  color: rgb(153, 112, 83);
   margin-left: 12%;
   font-size: 130%;
   margin-right: 50%;
@@ -84,7 +84,7 @@
   }
 
   .about-text {
-    color: white;
+    color: rgb(153, 112, 83);
     font-size: 90%;
     line-height: 1.2em;
     font-family: "Courier New", Courier, monospace;
@@ -92,16 +92,17 @@
 }
 
 .bold1 {
-  color: rgb(96, 151, 151);
+  color: rgb(50, 143, 143);
   font-weight: bold;
 }
 
 .bold2 {
-  color: rgb(173, 125, 34);
+  color: rgb(55, 126, 14);
   font-weight: bold;
 }
 
 .bold3 {
-  color: rgb(105, 60, 90);
+  color: rgb(119, 7, 82);
+
   font-weight: bold;
 }
