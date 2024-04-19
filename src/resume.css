@@ -1,6 +1,6 @@
 #resume {
   background: rgb(255, 233, 233);
-  height: auto;
+  height: 95vh;
   display: flex;
   flex-direction: column;
 }
