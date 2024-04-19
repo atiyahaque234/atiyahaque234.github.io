@@ -1,5 +1,5 @@
 import React from "react";
-import "./1avalon.css";
+import "./styles/1avalon.css";
 import { useNavigate } from "react-router-dom";
 
 function Avalon() {

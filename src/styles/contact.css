@@ -1,5 +1,5 @@
 #contact {
-  background-image: url("../public/res/contact-phone.jpg");
+  background-image: url("../../public/res/contact-phone.jpg");
   filter: contrast(70%);
 
   background-size: cover;
