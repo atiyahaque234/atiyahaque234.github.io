@@ -1,6 +1,10 @@
 import React from "react";
 import "./styles/about.css";
 
+<link
+  href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+  rel="stylesheet"
+></link>;
 function mainPageAboutSection() {
   return (
     <section id="about">

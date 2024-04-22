@@ -16,6 +16,14 @@ function MainPage() {
     navigate("/calendar");
   };
 
+  const onVinylTapClick = () => {
+    navigate("/vinyltap");
+  };
+
+  const onRWCClick = () => {
+    navigate("/rwc");
+  };
+
   return (
     <div>
       <div className="initials-container">AH</div>
@@ -64,8 +72,8 @@ function MainPage() {
               />
               <p>
                 Developed interactive web application to enhance board game
-                experience with supplemental digital features, including voting
-                and role selection, or full digital gameplay
+                experience with supplemental features, including voting and role
+                selection, or full digital gameplay
               </p>
               {/* <a href="https://avalon-cfacb.web.app/" target="_blank"> */}
               <button onClick={onAvalonClick} class="bn30">
@@ -87,23 +95,23 @@ function MainPage() {
           <div class="gallery">
             <div className="overlay">
               <img
-                src="./res/vinylgraphic.jpg"
+                src="./res/calendar.jpg"
                 class="gallery__img"
                 alt="Image 2"
               />
               <p>
-                Built mock-ups and published issues for digital music magazine
-                designed for college community to explore multimedia content
+                Designed lifestyle app to track health activities in calendar
+                format
               </p>{" "}
               <button onClick={onCalendarClick} class="bn30">
                 Check it out
               </button>{" "}
             </div>
             <div className="roletitle">
-              <p>Vinyl Tap Magazine</p>
+              <p>Pace</p>
               <p>
                 <small>
-                  <em>Role:</em> Web Designer
+                  <em>Role:</em> UX Designer
                 </small>
               </p>
             </div>
@@ -112,23 +120,24 @@ function MainPage() {
           <div class="gallery">
             <div className="overlay">
               <img
-                src="./res/wmbggraphic.jpg"
+                src="./res/vinylgraphic.jpg"
                 class="gallery__img"
-                alt="Image 3"
+                alt="Image 2"
               />
               <p>
-                Designed and updated local town radio station website to promote
-                events and partners
-              </p>{" "}
-              <a href="https://www.wmbgradio.com/" target="_blank">
-                <button class="bn30">Check it out</button>{" "}
-              </a>
+                Built mock-ups and collaborative addition for digital music
+                magazine designed for college community to explore multimedia
+                content
+              </p>
+              <button onClick={onVinylTapClick} class="bn30">
+                Check it out
+              </button>{" "}
             </div>
             <div className="roletitle">
-              <p>WMBG Radio Station</p>
+              <p>Vinyl Tap Magazine</p>
               <p>
                 <small>
-                  <em>Role:</em> UX Researcher, Web Designer{" "}
+                  <em>Role:</em> Web Designer{" "}
                 </small>
               </p>
             </div>
@@ -143,14 +152,12 @@ function MainPage() {
               />
               <p>
                 Enhancing website platform promoting social programs and support
-                for female refugees
+                for female refugees with addition of online shop and events
+                board
               </p>{" "}
-              <a
-                href="https://www.canva.com/design/DAE9mGxFgHw/7KltRF1OrSrFAJPzbXbkIQ/edit"
-                target="_blank"
-              >
-                <button class="bn30">Check it out</button>{" "}
-              </a>
+              <button onClick={onRWCClick} class="bn30">
+                Check it out
+              </button>{" "}
             </div>
             <div className="roletitle">
               <p>Refugee Women's Center</p>
@@ -171,7 +178,7 @@ function MainPage() {
               />
               <p>
                 Conducted market research to understand difference between macro
-                and micro influencers and provide growth strategy
+                and micro influencers and provided growth strategy
               </p>{" "}
               <a
                 href="https://www.canva.com/design/DAE9mGxFgHw/7KltRF1OrSrFAJPzbXbkIQ/edit"
