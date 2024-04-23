@@ -5,6 +5,7 @@ import "./styles/resume.css";
 import "./styles/style.css";
 import { useNavigate } from "react-router-dom";
 import mainPageAboutSection from "./mainPageAboutSection";
+import TypingName from "./typingComponent";
 
 function MainPage() {
   const navigate = useNavigate();

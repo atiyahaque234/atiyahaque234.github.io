@@ -44,12 +44,40 @@ function Calendar() {
         functioning.{" "}
       </h4>
       <h3 className="calendar"></h3>
-      <div className="calendarsitemap-container">
+      <div className="pacesitemap-container">
         <img src="./res/Sitemap - Health App.jpg" class="sitemap"></img>
       </div>
 
       <h2 className="calendar">My Thinking Process</h2>
-      <h3 className="calendar"></h3>
+      <h3 className="calendar">
+        I have used several health and lifestyle apps to keep track of exercise
+        goals, physical activities performed, weight loss goals, etc. I wanted
+        to create an app that requires little to no time and effort for setting
+        up, but still offering full flexibility. This app will allow users to
+        track when they need to do cardio, core,weight lifting to stick to a
+        routine. Users won't need to keep track of their doctor and dental
+        check-ups either. Once they set up their last visit and how often they
+        need to go, the calendar will automatically space out and create
+        reminders when that time comes again.{" "}
+      </h3>
+      <div className="pacediagram">
+        <img src="./res/pacediagram.jpg"></img>
+      </div>
+      <h2 className="calendar">Initial Sketches</h2>
+      <h3 className="calendar">
+        I always like to sketch out with pen and paper instead of jumping onto
+        digital tools. These are my very low fidelity wireframe sketches to get
+        an idea of how I want to layout the app.
+      </h3>
+      <div className="pace-mockup">
+        <div>
+          <img src="./res/pacesketch2.jpg"></img>
+        </div>
+        <div>
+          <img src="./res/pacesketch1.jpg"></img>
+        </div>
+      </div>
+      <h2 className="calendar">Prototype</h2>
     </div>
   );
 }

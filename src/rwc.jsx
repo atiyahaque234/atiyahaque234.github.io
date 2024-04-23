@@ -38,13 +38,49 @@ function RWC() {
       </div>
 
       <h2 className="rwc">Information Architecture</h2>
-      <h3 className="rwc"></h3>
-      <div className="sitemap-container">
+      <h3 className="rwc">
+        I wanted to ensure the route for users to arrive at the sewing program
+        info and the online shop is simple and straightforward, especially for
+        individuals that are only looking for the online shop and do not need
+        info on other content, such as the resource and volunteer links.
+      </h3>
+      <div className="rwcsitemap-container">
         <img src="./res/Sitemap - RWC.jpg" class="sitemap"></img>
       </div>
 
-      <h2 className="rwc">My Thinking Process</h2>
-      <h3 className="rwc"></h3>
+      <h2 className="rwc">Updates</h2>
+      <h3 className="rwc">
+        The Sewing Program page didn't have extensive info for users to learn. I
+        included more written content and pictures that showcase what the
+        program entails. I added pictures of handmade items by the online shop
+        link, so individuals will know what to expect.
+      </h3>
+      <h3 className="rwc">
+        Smaller updates were made to the page for overall smooth transitioning
+        between links. There were redundant links that were removed, such as
+        donate links to the donate page at the bottom of home page. The primary
+        donate info is now under the donate tab.
+      </h3>
+      <div className="rwcmockup1">
+        <img src="./res/rwcmockup1.jpg" alt="" />
+      </div>
+
+      <h2 className="rwc">Wireframing</h2>
+      <h3 className="rwc">
+        I sketched out the frame for how I want to design the online shop. I
+        needed to approve the design by the program lead to ensure it meets
+        their needs. After recieving approval on these sketches, I was able to
+        create mockups and get to working on the shop itself.
+      </h3>
+      <div className="wireframe-grid">
+        <div>
+          <img src="./res/rwcwf1.png" alt="" />
+        </div>
+        <div>
+          <img src="./res/rwcwf2.png" alt="" />
+        </div>
+      </div>
+      <h2 className="rwc">Online Shop</h2>
     </div>
   );
 }
