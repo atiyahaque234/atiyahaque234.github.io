@@ -78,6 +78,24 @@ function Calendar() {
         </div>
       </div>
       <h2 className="calendar">Prototype</h2>
+      <h3 className="calendar">
+        This prototype is designed to show how a user can scroll through the
+        screens to set up their calendar. If you click the home page, then you
+        can view the transitions and more available screens.
+      </h3>
+      <div className="pacemockup-grid">
+        <img src="./res/pacemockups1.png" alt="" />
+
+        <div className="pacemockup-text">
+          <p>Try it out!</p>
+          <a
+            href="https://www.figma.com/proto/pUVLMWc0oZXv3zEnBW1cUp/Pace?type=design&node-id=1-2&t=6yZjMR8tUrbsM95N-1&scaling=scale-down&page-id=0%3A1&mode=design"
+            target="_blank"
+          >
+            <img src="./res/pacefrontpage.png" alt="" />{" "}
+          </a>
+        </div>
+      </div>
     </div>
   );
 }

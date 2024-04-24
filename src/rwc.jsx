@@ -11,6 +11,7 @@ function RWC() {
 
   return (
     <div>
+      <a id="button"></a>
       <div class="rwcbanner">
         <img src="./res/rwcbanner.jpg" alt="Image 2" />
         <p>Sewing page redesign with online shop addition</p>
@@ -81,6 +82,31 @@ function RWC() {
         </div>
       </div>
       <h2 className="rwc">Online Shop</h2>
+      <h3 className="rwc">
+        I used actual images from the refugee program and created the online
+        shop layout. I wanted to keep it simple with a few product categories
+        and subcategories making it easy to navigate.
+      </h3>
+      <div className="rwcmockup-grid">
+        <div className="mockup-text">
+          <p>Try it out!</p>
+          <a
+            href="https://www.figma.com/proto/u3PQ7U2vvgpTQiuGbVLNtG/RWC-Online-Shop?type=design&node-id=33-2&t=MYNf9igzV6XXk7i6-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=33%3A2&mode=design"
+            target="_blank"
+          >
+            <img src="./res/rwcmockup2.jpg" alt="" />{" "}
+          </a>
+        </div>
+        <div>
+          <img src="./res/rwcmockup6.jpg" alt="" />
+        </div>
+        <div>
+          <img src="./res/rwcmockup5.jpg" alt="" />
+        </div>
+        <div>
+          <img src="./res/rwcmockup4.jpg" alt="" />
+        </div>
+      </div>
     </div>
   );
 }

@@ -29,7 +29,7 @@ h1.calendar {
 }
 
 h2.calendar {
-  margin-top: 1em;
+  margin-top: 1.5em;
   font-size: 2em;
   text-align: center;
 }
@@ -83,4 +83,32 @@ h4.calendar {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.pacemockup-grid {
+  display: grid;
+  grid-template-columns: 35vw 35vw;
+  max-width: 100%;
+  margin-left: 20em;
+  margin-right: 20em;
+}
+
+.pacemockup-grid img {
+  width: 80%;
+  object-fit: contain;
+  margin-bottom: 0;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.pacemockup-text p {
+  text-align: left;
+  font-size: 2em;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 4.8em;
+  color: rgb(49, 64, 125);
 }
