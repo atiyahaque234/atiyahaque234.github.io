@@ -11,7 +11,7 @@ function Calendar() {
 
   return (
     <div>
-      <div class="calendarbanner">
+      <div className="calendarbanner">
         <img src="./res/pacebanner.jpg" alt="Image 1" />
         <p>Health & Lifestyle Calendar App - Case Study</p>
         <button className="arrow-container" onClick={onGoToMainPage}>
@@ -45,7 +45,7 @@ function Calendar() {
       </h4>
       <h3 className="calendar"></h3>
       <div className="pacesitemap-container">
-        <img src="./res/Sitemap - Health App.jpg" class="sitemap"></img>
+        <img src="./res/Sitemap - Health App.jpg" className="sitemap"></img>
       </div>
 
       <h2 className="calendar">My Thinking Process</h2>
@@ -87,7 +87,7 @@ function Calendar() {
         <img src="./res/pacemockups1.png" alt="" />
 
         <div className="pacemockup-text">
-          <p>Try it out!</p>
+          <p>Click below! &#8681;</p>
           <a
             href="https://www.figma.com/proto/pUVLMWc0oZXv3zEnBW1cUp/Pace?type=design&node-id=1-2&t=6yZjMR8tUrbsM95N-1&scaling=scale-down&page-id=0%3A1&mode=design"
             target="_blank"

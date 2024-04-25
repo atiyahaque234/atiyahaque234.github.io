@@ -6,6 +6,7 @@ import Calendar from "./calendar";
 import VinylTap from "./vinyltap";
 import RWC from "./rwc";
 import { ScrollToTop } from "./scrollToTop";
+import { BackToTopButton } from "./backToTopButton";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/vinyltap" element={<VinylTap />} />
         <Route path="/rwc" element={<RWC />} />
       </Routes>
+      <BackToTopButton />
     </Router>
   );
 }

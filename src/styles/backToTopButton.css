@@ -1,0 +1,46 @@
+button.show {
+  border-width: 0 3px 3px 0;
+  color: #ffffff;
+  padding: 3px;
+  font-size: 2.5em;
+}
+
+#button {
+  background-color: #5d5656;
+  width: 45px;
+  height: 55px;
+  text-align: center;
+  border-radius: 30px;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  padding-bottom: 1em;
+  line-height: 1em;
+}
+#button::after {
+  font-weight: normal;
+  font-style: normal;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Styles for the content section */
+
+@media (min-width: 500px) {
+  #button {
+    margin: 30px;
+  }
+}

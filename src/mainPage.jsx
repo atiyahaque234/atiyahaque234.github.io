@@ -63,11 +63,11 @@ function MainPage() {
       <section id="projects">
         <div className="project-headers">FEATURED WORK</div>
         <div className="container">
-          <div class="gallery">
+          <div className="gallery">
             <div className="overlay">
               <img
                 src="./res/avalongraphic.jpg"
-                class="gallery__img"
+                className="gallery__img"
                 alt="Image 1"
               />
               <p>
@@ -76,7 +76,7 @@ function MainPage() {
                 selection, or full digital gameplay
               </p>
               {/* <a href="https://avalon-cfacb.web.app/" target="_blank"> */}
-              <button onClick={onAvalonClick} class="bn30">
+              <button onClick={onAvalonClick} className="bn30">
                 Check it out
               </button>{" "}
               {/* </a> */}
@@ -92,18 +92,18 @@ function MainPage() {
               <p></p>
             </div>
           </div>
-          <div class="gallery">
+          <div className="gallery">
             <div className="overlay">
               <img
                 src="./res/calendar.jpg"
-                class="gallery__img"
+                className="gallery__img"
                 alt="Image 2"
               />
               <p>
                 Designed lifestyle app to track health activities in calendar
                 format
               </p>{" "}
-              <button onClick={onCalendarClick} class="bn30">
+              <button onClick={onCalendarClick} className="bn30">
                 Check it out
               </button>{" "}
             </div>
@@ -117,11 +117,11 @@ function MainPage() {
             </div>
           </div>
 
-          <div class="gallery">
+          <div className="gallery">
             <div className="overlay">
               <img
                 src="./res/vinylgraphic.jpg"
-                class="gallery__img"
+                className="gallery__img"
                 alt="Image 2"
               />
               <p>
@@ -129,7 +129,7 @@ function MainPage() {
                 magazine designed for college community to explore multimedia
                 content
               </p>
-              <button onClick={onVinylTapClick} class="bn30">
+              <button onClick={onVinylTapClick} className="bn30">
                 Check it out
               </button>{" "}
             </div>
@@ -143,11 +143,11 @@ function MainPage() {
             </div>
           </div>
 
-          <div class="gallery">
+          <div className="gallery">
             <div className="overlay">
               <img
                 src="./res/rwcgraphic.jpg"
-                class="gallery__img"
+                className="gallery__img"
                 alt="Image 4"
               />
               <p>
@@ -155,7 +155,7 @@ function MainPage() {
                 for female refugees with addition of online shop and events
                 board
               </p>{" "}
-              <button onClick={onRWCClick} class="bn30">
+              <button onClick={onRWCClick} className="bn30">
                 Check it out
               </button>{" "}
             </div>
@@ -169,11 +169,11 @@ function MainPage() {
             </div>
           </div>
 
-          <div class="gallery">
+          <div className="gallery">
             <div className="overlay">
               <img
                 src="./res/influencergraphic.jpg"
-                class="gallery__img"
+                className="gallery__img"
                 alt="Image 4"
               />
               <p>
@@ -184,7 +184,7 @@ function MainPage() {
                 href="https://www.canva.com/design/DAE9mGxFgHw/7KltRF1OrSrFAJPzbXbkIQ/edit"
                 target="_blank"
               >
-                <button class="bn30">Check it out</button>{" "}
+                <button className="bn30">Check it out</button>{" "}
               </a>
             </div>
             <div className="roletitle">
@@ -197,11 +197,11 @@ function MainPage() {
               </p>
             </div>
           </div>
-          <div class="gallery">
+          <div className="gallery">
             <div className="overlay">
               <img
                 src="./res/braygraphic.jpg"
-                class="gallery__img"
+                className="gallery__img"
                 alt="Image 5"
               />
               <p>
@@ -212,7 +212,7 @@ function MainPage() {
                 href="https://www.canva.com/design/DAE8RqyMH6I/nlydGTEBOv7ypUCYiIUUYQ/edit"
                 target="_blank"
               >
-                <button class="bn30">Check it out</button>{" "}
+                <button className="bn30">Check it out</button>{" "}
               </a>
             </div>
             <div className="roletitle">

@@ -52,7 +52,7 @@ h3.calendar {
   font-family: "Courier New";
   margin-left: 12em;
   margin-right: 12em;
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.5em;
 }
 
@@ -61,7 +61,7 @@ h4.calendar {
   font-family: "Courier New";
   margin-right: 6em;
   margin-left: 8em;
-  font-size: 1em;
+  font-size: 1.2em;
   margin-top: 2em;
   line-height: 1.5em;
 }
@@ -104,11 +104,23 @@ h4.calendar {
 }
 
 .pacemockup-text p {
+  display: inline;
   text-align: left;
-  font-size: 2em;
+  font-size: 1.8em;
   margin-bottom: 0;
   font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 4.8em;
-  color: rgb(49, 64, 125);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 1em;
+  color: rgb(47, 61, 128);
+  background-color: rgb(199, 255, 126);
+}
+
+.pacemockup-text {
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.pacearrow {
+  font-size: 2em; /* Larger arrow, adjust size as needed */
+  padding: 0 20px; /* Optional: Adds padding to the arrow for better visibility */
 }

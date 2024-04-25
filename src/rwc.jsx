@@ -12,7 +12,7 @@ function RWC() {
   return (
     <div>
       <a id="button"></a>
-      <div class="rwcbanner">
+      <div className="rwcbanner">
         <img src="./res/rwcbanner.jpg" alt="Image 2" />
         <p>Sewing page redesign with online shop addition</p>
         <button className="arrow-container" onClick={onGoToMainPage}>
@@ -46,7 +46,7 @@ function RWC() {
         info on other content, such as the resource and volunteer links.
       </h3>
       <div className="rwcsitemap-container">
-        <img src="./res/Sitemap - RWC.jpg" class="sitemap"></img>
+        <img src="./res/Sitemap - RWC.jpg" className="sitemap"></img>
       </div>
 
       <h2 className="rwc">Updates</h2>

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./styles/1avalon.css";
 import { useNavigate } from "react-router-dom";
 
@@ -11,7 +11,7 @@ function Avalon() {
 
   return (
     <div>
-      <div class="avalonbanner">
+      <div className="avalonbanner">
         <img src="./res/Avalon banner.png" alt="Image 1" />
         <p>Digitization of the Quest: Avalon Board Game</p>
         <button className="arrow-container" onClick={onGoToMainPage}>
@@ -50,7 +50,7 @@ function Avalon() {
         the most logical way for gameplay.
       </h3>
       <div className="avalonsitemap-container">
-        <img src="./res/Sitemap - Avalon.jpg" class="sitemap"></img>
+        <img src="./res/Sitemap - Avalon.jpg" className="sitemap"></img>
       </div>
 
       <h2 className="avalon">My Thinking Process</h2>

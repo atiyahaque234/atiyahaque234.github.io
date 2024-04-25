@@ -11,7 +11,7 @@ function VinylTap() {
 
   return (
     <div>
-      <div class="vinylbanner">
+      <div className="vinylbanner">
         <img src="./res/vinyltapbanner.jpg" alt="Image 1" />
         <p>Collaborative Spotify Playlist Enhancement</p>
         <button className="arrow-container" onClick={onGoToMainPage}>
@@ -44,7 +44,7 @@ function VinylTap() {
         categories.
       </h3>
       <div className="vinylsitemap-container">
-        <img src="./res/Sitemap - Vinyl Tap.jpg" class="sitemap"></img>
+        <img src="./res/Sitemap - Vinyl Tap.jpg" className="sitemap"></img>
       </div>
 
       <h2 className="vinyltap">My Thinking & User Research</h2>
