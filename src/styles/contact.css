@@ -20,14 +20,14 @@
   position: sticky;
   font-size: 400%;
   font-family: "syncopate", sans-serif;
-  color: rgb(255, 255, 255);
+  color: rgb(126, 98, 78);
   font-weight: lighter;
   margin-left: 0;
 }
 
 .contact-text {
   padding: 0 5%;
-  color: #ffffff;
+  color: rgb(126, 98, 78);
   font-size: 130%;
   line-height: 1em;
   font-weight: lighter;
@@ -37,7 +37,7 @@
 }
 
 .url-color {
-  color: white;
+  color: rgb(126, 98, 78);
   text-decoration: underline;
 }
 
@@ -104,7 +104,7 @@
 
   .contact-text {
     font-size: 100%; /* Smaller font size for text */
-    color: white;
+    color: rgb(126, 98, 78);
     margin: 10%;
   }
 
