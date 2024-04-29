@@ -106,7 +106,7 @@ h1 {
 .button-style {
   padding: 1vw 2vw;
   color: rgb(255, 249, 249);
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-decoration: none;
   align-content: end;
   font-size: 1em;
@@ -143,7 +143,7 @@ h1 {
   z-index: 10000;
   display: inline-block;
   border: 2px solid #ffffff;
-  font-family: "Gruppo", sans-serif;
+  font-family: "Architects Daughter", cursive; /* Change font family */
 }
 
 .scroll-down {

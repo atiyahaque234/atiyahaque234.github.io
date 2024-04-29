@@ -33,6 +33,7 @@ body {
 h1.avalon {
   text-align: center;
   font-size: 2.5em;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .problempic img {
@@ -47,6 +48,7 @@ h2.avalon {
   margin-top: 2em;
   font-size: 2em;
   text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .avalonsitemap-container {
@@ -110,6 +112,7 @@ h3.phasetitle {
   margin-left: 21%;
   font-size: 110%;
   text-decoration: underline;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .mockuppic img {

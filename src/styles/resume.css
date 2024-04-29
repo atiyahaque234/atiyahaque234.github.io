@@ -1,6 +1,6 @@
 #resume {
   background: rgb(255, 233, 233);
-  height: 95vh;
+  height: auto;
   display: flex;
   flex-direction: column;
 }
@@ -50,8 +50,9 @@
 .resume-title {
   font-size: 26px;
   font-weight: 700;
-  margin-top: 0;
+  margin-top: 0.5em;
   color: rgb(153, 112, 83);
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 h3 {
@@ -65,18 +66,21 @@ h3 {
   border-left: 2px solid #9d7c68;
   justify-items: center;
   align-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
 
   h6 {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0;
     position: relative;
     margin-top: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
   }
 
   h5 {
-    font-size: 16px;
+    font-size: 14px;
     background-color: rgb(202, 196, 196);
     padding: 0px 10px;
     font-weight: 600;
@@ -84,6 +88,7 @@ h3 {
     margin-bottom: 0;
     margin-left: 0.5em;
     max-width: fit-content;
+    font-family: Georgia, "Times New Roman", Times, serif;
   }
 
   ul {
@@ -102,6 +107,7 @@ h3 {
 
 .h11 {
   color: rgb(153, 112, 83);
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .resume-item h6::before {

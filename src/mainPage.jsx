@@ -394,7 +394,7 @@ function MainPage() {
       </section>
 
       <section id="contact">
-        <div className="contact-headers">Let's Stay in Touch!</div>
+        <div className="contact-headers">LET'S STAY IN TOUCH!</div>
 
         <div className="contact-icon-item">
           <div className="contact-icons">

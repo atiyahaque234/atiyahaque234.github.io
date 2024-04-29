@@ -8,7 +8,7 @@ import "./styles/about.css";
 function mainPageAboutSection() {
   return (
     <section id="about">
-      <h2 className="about-headers">Who Am I?</h2>
+      <h2 className="about-headers">WHO AM I?</h2>
       <img className="aboutpic" src="./res/aboutme.jpg" />
 
       <p className="about-text">

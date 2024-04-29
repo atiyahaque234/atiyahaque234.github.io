@@ -27,8 +27,7 @@ a {
   display: none;
   margin: 3.2vw;
   width: calc(100% - 20%); /* Adjust width to allow padding */
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .overlay:hover img {
@@ -60,8 +59,9 @@ a {
   margin-top: 0.4em;
   text-align: left;
   color: rgb(126, 98, 78);
-  font-size: 1.3em;
+  font-size: 1em;
   margin-bottom: 1%;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .gallery__img {
   width: 100%;
@@ -101,6 +101,7 @@ a {
   background-image: linear-gradient(45deg, #949fc2, #b06ab3);
   text-align: center;
   position: absolute;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .bn30:after {
