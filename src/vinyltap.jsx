@@ -12,7 +12,7 @@ function VinylTap() {
   return (
     <div>
       <div className="vinylbanner">
-        <img src="./res/vinyltapbanner.jpg" alt="Image 1" />
+        <img src="./res/Vinyltapbanner.jpg" alt="Image 1" />
         <p>Collaborative Spotify Playlist Enhancement</p>
         <button className="arrow-container" onClick={onGoToMainPage}>
           <div className="arrow arrow-left"></div>
