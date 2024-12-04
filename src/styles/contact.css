@@ -1,7 +1,6 @@
 #contact {
   background-image: url("../../public/res/contact-phone.jpg");
-
-  filter: contrast(70%), brightness(105%);
+  filter: contrast(20%), brightness(45%);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -20,24 +19,24 @@
   position: sticky;
   font-size: 400%;
   font-family: "syncopate", sans-serif;
-  color: rgb(123, 95, 76);
+  color: rgb(70, 137, 213);
   font-weight: lighter;
   margin-left: 0;
 }
 
 .contact-text {
-  padding: 0 5%;
-  color: rgb(123, 95, 76);
+  padding: 0 4%;
+  color: rgb(70, 137, 213);
   font-size: 120%;
-  line-height: 1em;
+  line-height: 0.5em;
   font-weight: lighter;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Courier New", Courier, monospace;
   margin-left: -0.5em;
-  margin-bottom: -0.8em;
+  margin-bottom: -1em;
 }
 
 .url-color {
-  color: rgb(123, 95, 76);
+  color: rgb(70, 137, 213);
   text-decoration: underline;
 }
 

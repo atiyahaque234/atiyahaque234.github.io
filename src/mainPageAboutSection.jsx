@@ -12,20 +12,20 @@ function mainPageAboutSection() {
       <img className="aboutpic" src="./res/aboutme.jpg" />
 
       <p className="about-text">
-        Hey there! I am a digital enthusiast, who is passionate about
-        everything&nbsp;
-        <span className="bold1">Technology</span>,&nbsp;
-        <span className="bold2">User Experience</span>, and&nbsp;
-        <span className="bold3">Marketing</span>. My goal is to apply creativity
-        in everything I do, while building new relationships along the way. I
-        aim to redefine customer engagement and drive success through strategic
-        digital practices.
+        Hey there! My name is Atiya Haque, and I am an aspiring UX Designer. My
+        combined passions for technology, art, and creativity have brought me
+        here. I am eager to grow as a designer, while building new relationships
+        along the way. I hope to bring a blend of my front-end coding experience
+        and user research perspectives to my design work. My goal is to redefine
+        user friendly experiences and drive success through strategic digital
+        practices.
       </p>
 
       <p className="about-text">
         I enjoy sewing, photography, and trying new coffee shops in my free
-        time. If I sound interesting to you, please check my contact page to
-        reach out to me!
+        time. I am from the DMV area, but open to traveling wherever design
+        takes me! Please feel free to reach out to me, and let's create
+        something amazing together!
       </p>
     </section>
   );

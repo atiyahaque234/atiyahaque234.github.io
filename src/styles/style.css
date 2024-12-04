@@ -46,27 +46,28 @@ h1 {
 .hey-im-heading {
   color: #d8d1d1; /* Change text color */
   text-align: center; /* Center align the text */
-  font-size: 2.5em; /* Increase font size */
+  font-size: 6em; /* Increase font size */
   font-weight: bold; /* Make the font weight bold */
   margin-top: 20px; /* Add margin on top */
   margin-bottom: 10px; /* Add margin on the bottom */
   position: absolute;
-  top: 56%;
-  left: 48%;
+  top: 60%;
+  left: 50%;
   margin: 0;
   transform: translate(-50%, -50%);
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Orbitron;
 }
 
 .name-heading {
   color: #d8d1d1; /* Change text color */
-  font-family: "Architects Daughter", cursive; /* Change font family */
+  font-family: Orbitron; /* Change font family */
   text-align: center; /* Center align the text */
-  font-size: 8em; /* Increase font size */
+  font-size: 3em; /* Increase font size */
   position: absolute;
-  top: 70%;
+  top: 75%;
   left: 50%;
   margin: 0;
+  font-weight: lighter;
   transform: translate(-50%, -50%);
   display: inline-block;
   border-right: 4px solid white; /* The cursor */
@@ -88,7 +89,7 @@ h1 {
     width: 0;
   }
   to {
-    width: 35%;
+    width: 16%;
   }
 }
 
@@ -106,7 +107,7 @@ h1 {
 .button-style {
   padding: 1vw 2vw;
   color: rgb(255, 249, 249);
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Courier New", Courier, monospace;
   text-decoration: none;
   align-content: end;
   font-size: 1em;

@@ -64,8 +64,8 @@ h3 {
   position: relative;
   color: rgb(153, 112, 83);
   border-left: 2px solid #9d7c68;
-  justify-items: center;
-  align-content: center;
+  justify-items: left;
+  align-content: left;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 14px;
 

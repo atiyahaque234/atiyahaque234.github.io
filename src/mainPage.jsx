@@ -26,6 +26,19 @@ function MainPage() {
 
   return (
     <div>
+      <style>
+        @import
+        url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+      </style>
+      <style>
+        @import
+        url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Hachi+Maru+Pop&family=Orbitron:wght@400..900&display=swap');
+      </style>
+      <style>
+        @import
+        url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap');
+      </style>
+
       <div className="initials-container">AH</div>
       <div className="buttons-container">
         <nav>
@@ -38,9 +51,7 @@ function MainPage() {
           <a href="#projects" className="button-style">
             Projects
           </a>
-          <a href="#resume" className="button-style">
-            Resume
-          </a>
+
           <a href="#contact" className="button-style">
             Contact
           </a>
@@ -48,9 +59,9 @@ function MainPage() {
       </div>
 
       <section id="home" className="home-body">
-        <h1 className="hey-im-heading">Hey, I'm</h1>
+        <h1 className="hey-im-heading">ATIYA HAQUE</h1>
         <div className="typing-container">
-          <h2 className="name-heading">Atiya Haque</h2>
+          <h2 className="name-heading">Designer</h2>
 
           <a href="#about" className="scroll-down" address="true">
             <span></span>
@@ -77,7 +88,7 @@ function MainPage() {
               </p>
               {/* <a href="https://avalon-cfacb.web.app/" target="_blank"> */}
               <button onClick={onAvalonClick} className="bn30">
-                Check it out
+                Check It Out
               </button>{" "}
               {/* </a> */}
             </div>
@@ -104,7 +115,7 @@ function MainPage() {
                 format
               </p>{" "}
               <button onClick={onCalendarClick} className="bn30">
-                Check it out
+                Check It Out
               </button>{" "}
             </div>
             <div className="roletitle">
@@ -130,7 +141,7 @@ function MainPage() {
                 content
               </p>
               <button onClick={onVinylTapClick} className="bn30">
-                Check it out
+                Check It Out{" "}
               </button>{" "}
             </div>
             <div className="roletitle">
@@ -156,7 +167,7 @@ function MainPage() {
                 board
               </p>{" "}
               <button onClick={onRWCClick} className="bn30">
-                Check it out
+                Check It Out
               </button>{" "}
             </div>
             <div className="roletitle">
@@ -184,7 +195,7 @@ function MainPage() {
                 href="https://www.canva.com/design/DAE9mGxFgHw/7KltRF1OrSrFAJPzbXbkIQ/edit"
                 target="_blank"
               >
-                <button className="bn30">Check it out</button>{" "}
+                <button className="bn30">Check It Out</button>{" "}
               </a>
             </div>
             <div className="roletitle">
@@ -192,7 +203,7 @@ function MainPage() {
               <p>Influencer Case Study</p>
               <p>
                 <small>
-                  <em>Role:</em> Research Analyst{" "}
+                  <em>Role:</em> User Researcher{" "}
                 </small>
               </p>
             </div>
@@ -212,7 +223,7 @@ function MainPage() {
                 href="https://www.canva.com/design/DAE8RqyMH6I/nlydGTEBOv7ypUCYiIUUYQ/edit"
                 target="_blank"
               >
-                <button className="bn30">Check it out</button>{" "}
+                <button className="bn30">Check It Out</button>{" "}
               </a>
             </div>
             <div className="roletitle">
@@ -220,7 +231,7 @@ function MainPage() {
               <p>Bray School Lab Case Study</p>
               <p>
                 <small>
-                  <em>Role:</em> Marketing Strategist{" "}
+                  <em>Role:</em> Graphic Designer{" "}
                 </small>
               </p>
             </div>
@@ -228,7 +239,7 @@ function MainPage() {
         </div>
       </section>
 
-      <section id="resume">
+      {/* <section id="resume">
         <h4 className="resume-headers">
           RESUME
           <a
@@ -391,7 +402,7 @@ function MainPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section id="contact">
         <div className="contact-headers">LET'S STAY IN TOUCH!</div>
@@ -423,7 +434,7 @@ function MainPage() {
               className="url-color"
               href="https://www.linkedin.com/in/atiya-haque"
             >
-              https://www.linkedin.com/in/atiya-haque/
+              LinkedIn
             </a>
           </span>
         </div>
@@ -440,7 +451,7 @@ function MainPage() {
           </a>
           <span className="contact-text">
             <a className="url-color" href="https://github.com/atiyahaque234">
-              https://github.com/atiyahaque234
+              Github
             </a>
           </span>
         </div>
